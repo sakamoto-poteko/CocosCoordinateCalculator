@@ -113,7 +113,5 @@ namespace CocosCoordinateCalculator
         {
             RaisePropertyChanged(nameof(CocosObjectY));
         }
-
-        public static CalculatorViewModel ViewModel { get; } = new CalculatorViewModel();
     }
 }
