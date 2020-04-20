@@ -28,7 +28,11 @@ namespace CocosCoordinateCalculator
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)
         {
             var tb = (TextBox)sender;
-            tb.SelectAll();
+            tb.Dispatcher.BeginInvoke(new Action(() =>
+            {
+                tb.SelectAll();
+            }));
+            e.Handled = true;
         }
     }
 }

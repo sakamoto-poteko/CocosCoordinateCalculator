@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CocosCoordinateCalculator"
         mc:Ignorable="d"
         DataContext="{StaticResource CalculatorViewModel}"
-        Title="Cocos Coordinate Calculator" Height="243" Width="240" Icon="/icon.png">
+        Title="Cocos Coordinate Calculator" Height="290" Width="271" Icon="/icon.png">
     <Window.Resources>
         <Style TargetType="TextBox">
             <Setter Property="Margin" Value="0, 5" />
